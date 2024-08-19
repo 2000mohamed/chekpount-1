@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkpoint One</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li>
+            <a href="#home">Home</a>
+          </li>
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#work">Work</a>
+          </li>
+          <li>
+            <a href="#resum">Resum</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section id="home">
+      <h1>Home</h1>
+      <img src="./image/OIP.jpg" />
+      <p>Apple's partner made a new phone called iPhone 15</p>
+    </section>
+    <section id="about">
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/XHTrLYShBRQ?si=9Z_-0qLgJhpTIOrM"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+    </section>
+    <section id="work">
+      <h1>work</h1>
+      <ul>
+        <li>work in apple</li>
+      </ul>
+      <img src="./image/OIP (1).jpg" />
+      <img src="./تنزيل (2).jpg" />
+      <img src="./image/تنزيل (1).jpg" />
+      <img src="./image/تنزيل.jpg" />
+    </section>
+    <section id="resum">
+      <h1>resum</h1>
+      <iframe
+        width="1200"
+        height="800"
+        src="https://www.youtube.com/embed/RXeOiIDNNek?si=eLhjtcptGNLHHtgt"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+    </section>
+    <section id="contact">
+      <h1>contact</h1>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/aZ7IJSnBWMo?si=aiuNczH-CVO1fdzk"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+      <div class="contactez-nous">
+        <h1>Contactez-nous</h1>
+        <p>Un problème, une question, envie de nous envoyer un message d’amour ? N’hésitez pas à utiliser ce formulaire pour prendre contact avec nous !</p>
+        <form action="/page-traitement-donnees" method="post">
+        <div>
+        <label for="nom">Votre nom</label>
+        <input type="text" id="nom" name="nom" placeholder="Martin" required>
+        </div>
+        <div>
+        <label for="email">Votre e-mail</label>
+        <input type="email" id="email" name="email" placeholder="monadresse@mail.com" required>
+        </div>
+        <div>
+        <label for="sujet">Quel est le sujet de votre message ?</label>
+        <select name="sujet" id="sujet" required>
+        <option value="" disabled selected hidden>Choisissez le sujet de votre message</option>
+        <option value="probleme-compte">Problème avec mon compte</option>
+        <option value="question-produit">Question à propos d’un produit</option>
+        <option value="suivi-commande">Suivi de ma commande</option>
+        <option value="autre">Autre...</option>
+        </select>
+        </div>
+        <div>
+        <label for="message">Votre message</label>
+        <textarea id="message" name="message" placeholder="Bonjour, je vous contacte car...." required></textarea>
+        </div>
+        <div>
+        <button type="submit">Envoyer mon message</button>
+        </div>
+        </form>
+        </div>
+    </section>
+  </body>
+</html>
